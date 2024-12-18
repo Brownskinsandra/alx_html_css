@@ -1,8 +1,8 @@
 body{
-    background-image:url(pic/main.jpg),url(pic/blackbg.jpg);
+    background-image:url(pic/blackbg.jpg),url(pic/main.jpg);
     background-size:contain,contain;
     background-repeat: no-repeat,no-repeat;
-    background-blend-mode: screen, darken;
+    background-blend-mode: screen;
     text-align: center;
     padding: 10px 80px;
 }
