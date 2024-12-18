@@ -1,7 +1,8 @@
 body{
-    background-image:url(pic/main.jpg);
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-image:url(pic/main.jpg),url(pic/blackbg.jpg);
+    background-size:contain,contain;
+    background-repeat: no-repeat,no-repeat;
+    background-blend-mode: screen, darken;
     text-align: center;
     padding: 10px 80px;
 }
@@ -23,6 +24,7 @@ ul{
 ul li{
     margin: 0px 10px;
     list-style: none;
+    font-weight: bold;
 }
 ul li a{
     color: white;
@@ -34,15 +36,19 @@ ul li a{
     flex-direction: column;
 } */
 main .getschooled h1{
-    font-size: 100px;
+    font-size: 120px;
+    font-weight: bold;
     margin: 0px;
     padding: 0px;
 }
 main span{
+    font-size: 16px; ;
     font-weight:bolder;
     margin: 10px 10px; 
 } 
 main .getschooled button{
+    width: 162px;
+    height: 44px;
     margin-top: 20px;
     background-color: #C373FF;
     border: none;
@@ -54,8 +60,8 @@ main .getschooled button{
     box-shadow: 2px 2px 5px rgb(61, 58, 58);
 }
 main h2{
-    padding-top:120px;
-    padding-bottom: 60px;
+    padding-top:100px;
+    padding-bottom: 80px;
     font-weight: lighter;
 }
 main strong{
@@ -63,13 +69,19 @@ main strong{
     font-weight: bold;
 }
 main .images{
+    width: 1009px;
+    height: 237px;
     display: flex;
     justify-content: space-evenly;
-    line-height: 1.2px;
+    line-height: 2px;
     padding-bottom:100px ;
 }
+main .images div{
+    width: 150px;
+    height: 237px;
+}
 main .images img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
 }
