@@ -1,21 +1,22 @@
 body{
-    background-image:url(pic/blackbg.jpg),url(pic/main.jpg);
-    background-size:contain,contain;
-    background-repeat: no-repeat,no-repeat;
-    background-blend-mode: screen;
+    background-image:url(pic/main.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
     text-align: center;
-    padding: 10px 80px;
 }
 
 header, .section1{
     color: white;
+    padding: 0px 80px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     font-size:small;
-    margin-bottom: 140px;
+    margin-bottom: 120px;
+    text-align: center;
 }
 ul{
     display: flex;
@@ -60,8 +61,8 @@ main .getschooled button{
     box-shadow: 2px 2px 5px rgb(61, 58, 58);
 }
 main h2{
-    padding-top:100px;
-    padding-bottom: 80px;
+    padding-top:80px;
+    padding-bottom: 50px;
     font-weight: lighter;
 }
 main strong{
@@ -74,7 +75,7 @@ main .images{
     display: flex;
     justify-content: space-evenly;
     line-height: 2px;
-    padding-bottom:100px ;
+    padding-bottom:30px ;
 }
 main .images div{
     width: 150px;
@@ -84,4 +85,25 @@ main .images img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
+}
+.qoutes{
+    background-color: #C373FF;
+    display: flex;
+    justify-content: space-around;
+    text-align:left;
+    width:1265px;
+    margin-left: -10px;
+    height: 392px;
+    align-items: center;
+    color: white;
+}
+.qoutes img{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin-left: 300px;
+}
+.qoutes blockquote{
+    margin-left: -2px;
+    margin-right: 300px;
 }
