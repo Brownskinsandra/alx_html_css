@@ -193,7 +193,7 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
-    padding:100px 120px 50px 120px;
+    padding:100px 150px 50px 150px;
 }
 footer p{
     color:rgb(171, 170, 170);
