@@ -47,7 +47,7 @@ main span{
     font-weight:bolder;
     margin: 10px 10px; 
 } 
-main .getschooled button{
+main button{
     width: 162px;
     height: 44px;
     margin-top: 20px;
@@ -106,4 +106,98 @@ main .images img{
 .qoutes blockquote{
     margin-left: -2px;
     margin-right: 300px;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+    font-size: 10px;
+    text-align: left;
+    align-items: center;
+}
+.popular .h2{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0px;
+}
+.popular .div{
+    margin: 0px 10px;
+    width: 255px;
+    height: 335px;
+    line-height: 1.2;
+}
+
+.popular .philip{
+    border-radius: 100%;
+}
+.rating{
+    color: #C373FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating i{
+    padding: 0px 2px;
+}
+.S{
+    color: gainsboro;
+}
+.membership{
+    background-color:#071629;
+    color: white;
+    width: 100%;
+    height: 502px;
+    text-align: center;
+    font-size: 14px;
+}
+.membership .smile{
+    display: flex;
+    justify-content:space-evenly ;
+    padding: 50px 100px;
+}
+.smile div{
+    width: 257px;
+    height: 153px;
+    padding: 0px 50px;
+}
+
+.FAQ{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 100px;
+    padding-bottom: 50px;
+    text-align: left;
+    /* width: 920px;
+    height: 707px; */
+}
+.faq{
+    padding: 0px 50px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.faq div{
+    padding: 5px 20px;
+}
+
+footer{
+    background-color: #071629;
+    color: white;
+    width: 100%;
+    height: 249px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:100px 120px 50px 120px;
+}
+footer p{
+    color:rgb(171, 170, 170);
+}
+footer i{
+    margin: 8px;
 }
