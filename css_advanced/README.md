@@ -1,3 +1,5 @@
+# alx_html_css
+
 # SmileSchool Landing Page
 
 This project is a responsive HTML webpage designed as a landing page for SmileSchool, an educational platform that offers tutorials to master the art of smiling. The page showcases various courses, instructors, testimonials, and other engaging content. Below are the key features and sections of the page.
@@ -57,16 +59,14 @@ The webpage is divided into the following sections:
 1. Clone or download this repository to your local machine.
 2. Ensure you have an internet connection to load external resources like FontAwesome icons.
 3. Place the necessary images in the `./images/` directory:
-   - `1 (3).png`
-   - `6.png`
-   - `7.png`
-   - `8.png`
-   - `Bitmap.png`
-   - `Bitmap (1).png`
-   - `Bitmap (2).png`
-   - `Bitmap (3).png`
-   - `Bitmap (4).png`
-   - `smile.svg`
+   <img src="./images/avater1.jpg" alt="">
+   <img src="./images/avater2.jpg" alt="">
+   <img src="./images/avater3.jpg" alt="">
+   <img src="./images/avater4.jpg" alt="">
+   <img src="./images/Diagonal.jpg" alt="" class="play">
+   <img src="./images/sad.jpg" alt="">
+   <img src="./images/natural.jpg" alt="">
+   <img src="./images/happy.jpg" alt="">
 4. Open the `index.html` file in your preferred browser.
 
 ---

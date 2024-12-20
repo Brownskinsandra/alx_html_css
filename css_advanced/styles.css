@@ -2,10 +2,11 @@
 
 
 body{
-    background-image:url(pic/main.jpg);
+    background-image:url(images/main.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     background-blend-mode: darken;
+    justify-content: center;
     text-align: center;
     font-family: "Source Sans 3", serif;
             
