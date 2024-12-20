@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 body{
     background-image:url(pic/main.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     text-align: center;
+    font-family: "Source Sans 3", serif;
+            
 }
 
 header, .section1{
@@ -50,7 +55,7 @@ main span{
 main button{
     width: 162px;
     height: 44px;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #C373FF;
     border: none;
     color: white;
@@ -92,6 +97,7 @@ main .images img{
     justify-content: space-around;
     text-align:left;
     width:1265px;
+    margin-top: -30px;
     margin-left: -10px;
     height: 392px;
     align-items: center;
@@ -163,15 +169,22 @@ main .images img{
     padding: 0px 50px;
 }
 
+.Faq {
+    width: 920px;
+    height: 707px;
+    text-align: center;
+    padding: 0px 150px;
+    padding-bottom:200px ;
+}
+.Faq h2{
+    font-size: 60px;
+}
+
 .FAQ{
     display: flex; 
     justify-content: space-evenly;
     align-items: center;
-    padding: 0px 100px;
-    padding-bottom: 50px;
     text-align: left;
-    /* width: 920px;
-    height: 707px; */
 }
 .faq{
     padding: 0px 50px;
@@ -179,8 +192,8 @@ main .images img{
     font-size: 14px;
 }
 .faq div{
-    padding: 5px 20px;
-}
+    padding: 10px 20px;
+} 
 
 footer{
     background-color: #071629;
@@ -198,6 +211,6 @@ footer{
 footer p{
     color:rgb(171, 170, 170);
 }
-footer i{
+footer img{
     margin: 8px;
-}
+} 
