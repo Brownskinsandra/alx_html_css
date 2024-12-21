@@ -9,12 +9,15 @@ body{
     justify-content: center;
     text-align: center;
     font-family: "Source Sans 3", serif;
-            
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 header, .section1{
     color: white;
     padding: 0px 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
@@ -23,6 +26,7 @@ nav{
     font-size:small;
     margin-bottom: 120px;
     text-align: center;
+    margin-top: 15px;
 }
 ul{
     display: flex;
@@ -95,7 +99,8 @@ main .images img{
     text-align:left;
     width:1265px;
     margin-top: -30px;
-    margin-left: -10px;
+    flex-wrap: wrap;
+    /* margin: auto; */
     height: 392px;
     align-items: center;
     color: white;
