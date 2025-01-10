@@ -22,7 +22,8 @@
     .header {
         display: flex;
         justify-content: space-between;
-    }li{
+    }
+li{
     list-style: none;
     margin: 0px 30px 0px 0px;
     font-size: smaller;
@@ -65,7 +66,7 @@ ul li a{
     margin-bottom: 1rem;
 }
 
-.main button{
+.main button, .contain button{
     background-color: #ff6565;
     border-radius: 25px;
     padding:10px 15px ;
@@ -131,31 +132,38 @@ ul li a{
  .icon{
     display: flex;
     flex-direction: row;
-    text-align: center;
-    align-items: center;
+    justify-content: center;
 } 
- /* .icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-     margin-bottom: 5rem; 
-     padding: 0rem 10rem; 
-}  */
+    .icons {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 5rem;
+            /* padding: 0rem 10rem; */
+        }
+    .icons div{
+            margin: 0px 20px;
+            align-items: center;
+            text-align: center;
+        }
+ 
   .icons p{
-    margin-top: 4rem;
+    margin-top: 3rem;
 }  
-.background2{
-    background-image: url(pic/background2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 800px;
-        max-width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding: 12rem 8rem;}
+
+  .background2 {
+            background-image: url(pic/background2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            padding: 12rem 8rem;
+            color: white;
+            text-align: center;}
 
     .image {
         display: flex;
@@ -170,7 +178,7 @@ ul li a{
     display: flex;
     justify-content: space-evenly;
 } */
-    li {
+    /* li {
         list-style: none;
         margin: 0px 30px 0px 0px;
         font-size: smaller;
@@ -185,9 +193,9 @@ ul li a{
     ul li a {
         text-decoration: none;
         color: white;
-    }
+    } */
 
-    .main {
+    /* .main {
         text-align: center;
         margin-top: 22rem;
         color: white;
@@ -231,9 +239,9 @@ ul li a{
 
     .main button:hover {
         opacity: 0.9;
-    }
+    } */
 
-    .nav-bar {
+    /* .nav-bar {
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -271,9 +279,9 @@ ul li a{
 
     .menu li a:hover:after {
         width: 100%;
-    }
+    } */
 
-    .open-menu,
+    /* .open-menu,
     .close-menu {
         position: absolute;
         color: white;
@@ -293,40 +301,20 @@ ul li a{
 
     #check {
         display: none;
-    }
+    } */
 
-    .para2 {
+    /* .para2 {
         margin: 15rem 0rem;
         text-align: center;
         padding: 0rem 11rem;
     }
 
-    .icons {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 5rem;
-        padding: 0rem 10rem;
-    }
 
     .icons p {
         margin-top: 4rem;
     }
 
-    .background2 {
-        background-image: url(pic/background2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 300px; 
-        max-width: 100%;
-        display: block;
-        margin: 0 auto;
-        padding: 12rem 8rem;
-        color: white;
-        text-align: center;
-    }
+    }*/
 
     .background2 p {
         margin-bottom: 5rem;
@@ -360,12 +348,70 @@ ul li a{
         font-size: x-small;
     }
 
-@media (max-width:1400px){
+    .contain{
+        display: block;
+        margin: 0 auto;
+        width: 335px;
+        margin-bottom: 5rem;
+    }
+    .contain div{
+        border-bottom-style: solid;
+        opacity: 0.8;
+        padding: 1rem 1rem;
+        margin: 3rem 0rem;
+        width: 335px;
+    }
+
+    .contain div:last-child{
+        margin-bottom: 3rem;
+    }
+    
+    .contain button{
+        margin-top: 5rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer{
+        background-image: url(pic/footer_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 200px;
+            justify-content: space-between;
+            color: white;
+            padding: 0rem 5rem;
+    }
+    footer div:last-child{
+        margin-bottom: 5rem;
+    }
+    
+     svg{
+        margin: 10px;
+    } 
+    footer img{
+        margin-left: 5px;
+    }
+    
+    footer p{
+        color: white;
+        opacity: 0.3;
+        font-size: smaller;
+        margin-top: 8rem;
+    }
+    .mobile{
+        display: none;
+    }
+
+/* @media (max-width:1400px){
     .icon{
         display: flex;
         justify-content: space-evenly;
-    }
-}
+    } 
+} */
 
 
 @media (max-width:480px){
@@ -443,12 +489,70 @@ ul li a{
             margin: 0 auto;
             padding: 12rem 2rem 0rem 2rem;
         }
-                .shape {
-                    display: flex;
+        .shape {
+            display: flex;
                     flex-direction:column ;
                     justify-content: space-evenly;
                     align-items: center;
                     text-align: center;
                     padding: 0rem 5rem;
+                }
+        .contain {
+                    display: block;
+                    margin: 0 auto;
+                    width: 100%;
+                    padding: 3rem 0rem;
+                    margin-top: 3rem;
+                }
+
+        .contain div {
+                display: block;
+                margin: 0 auto;
+                border-bottom-style: solid;
+                opacity: 0.8;
+                margin: 3rem 0rem; 
+                width: 100%;
+            }
+        
+            .contain div:last-child {
+                margin-bottom: 3rem;
+            }
+        
+            .contain button {
+                margin-top:5rem ;
+                padding: 1rem 2rem;
+                font-weight: bold;
+                display: block;
+                margin: 0 auto;
+            }        
+                footer {
+                    background-image: url(pic/footer_background.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 240px;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    padding-top: 5rem;
+                    flex-direction: column;
+                    color: white;
+                }
+                footer div:first-child{
+                    display: grid;
+                    align-items: start;
+                    text-align: left;
+                }
+                footer div{
+                    margin-bottom: 2rem;
+                }
+
+                .desktop1, .desktop{
+                    display: none;
+                }
+                .mobile{
+                    display: grid;
+                    margin-top: auto;
+                    padding-bottom: 25rem; 
                 }
 }
