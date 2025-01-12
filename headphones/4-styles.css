@@ -294,9 +294,45 @@
      font-size: smaller;
      margin-top: 8rem;
  }
-
+svg{
+    color: white;
+}
  .mobile {
      display: none;
+ }
+
+ @media screen and (max-width: 768px) {
+     body {
+         width: 100%;
+         height: 50rem;
+     }
+
+     .icon {
+         display: grid;
+     }
+     .background2{
+        height: 700px;
+     }
+
+     header {
+         width: 100%;
+         padding: 0 5%;
+     }
+         .shape {
+             margin-top: 1rem;
+         }
+    
+         .shapes {
+             background-image: url(pic/Polygon\ Copy.png);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: contain;
+             display: block;
+             margin: 0 auto;
+             margin: 0rem 1rem;
+             width: 150px;
+         }
+
  }
 
 
