@@ -155,12 +155,18 @@
      margin: 15rem 0rem;
      text-align: center;
      padding: 0rem 11rem;
+     transition: 1.5ms;
+ }
+ .para2 h1:hover{
+    color: #ff6565;
+    transform: scale(1.5);
  }
 
  .icon {
      display: flex;
      flex-direction: row;
      justify-content: center;
+
  }
 
  .icons {
@@ -169,7 +175,11 @@
      align-items: center;
      text-align: center;
      margin-bottom: 5rem;
+     transition: 1ms ease-in-out;
      /* padding: 0rem 10rem; */
+ }
+ .icons div:hover{
+    transform: scaleY(0.8);
  }
 
  .icons div {
@@ -194,6 +204,22 @@
      padding: 12rem 8rem;
      color: white;
      text-align: center;
+ }
+ .shape, .background2 h2, .background2 p{
+    transition: 1s ease-in;
+ }
+ .shape .shapes:hover{
+    transform: scale(1.1);
+ }
+ .background2 h1:hover{
+    color: #ff6565;
+    opacity: 0.5;
+    transform: scale(1.1);
+ }
+ .background2 p:hover{
+    color: #daaaaa;
+    opacity: 0.4;
+    transform: translate(24px,5%);
  }
 
  .image {

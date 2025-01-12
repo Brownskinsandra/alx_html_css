@@ -63,7 +63,11 @@ Use CSS to achieve the minimalistic design and proper alignment.
 
 Replace the placeholder image with high-quality visuals that align with your product.
 [background design](pic/background.png)
-
+[2nd background](pic/background2.png)
+[icons](pic/hearing.png)
+[icons](pic/music.png)
+[icons](pic/sound_frequency.png)
+[icons](pic/video.png)
 
 
 3. Typography:
